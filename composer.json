@@ -1,0 +1,48 @@
+{
+    "name": "clearbold/darksky-weather",
+    "description": "Dark Sky Weather is a Craft plugin to display weather data from the Dark Sky API.",
+    "version": "0.1",
+    "type": "craft-plugin",
+    "homepage": "https://github.com/clearbold/craft-darksky-weather",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Reeves",
+            "homepage": "http://clearbold.com"
+        }
+    ],
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "twig",
+        "weather",
+        "darksky",
+        "dark",
+        "sky"
+    ],
+    "require": {
+        "craftcms/cms": "^3.1.6.1"
+    },
+    "autoload": {
+        "psr-4": {
+          "clearbold\\darksky\\": "src/"
+        }
+    },
+    "support": {
+        "docs": "https://github.com/clearbold/craft-darksky-weather",
+        "source": "https://github.com/clearbold/craft-darksky-weather",
+        "issues": "https://github.com/clearbold/craft-darksky-weather"
+    },
+    "extra": {
+        "name": "Dark Sky Weather",
+        "handle": "darksky",
+        "hasCpSettings": false,
+        "developer": "Clearbold",
+        "developerUrl": "http://clearbold.com/",
+        "changelogUrl": "https://raw.githubusercontent.com/clearbold/darksky-weather/master/CHANGELOG.md",
+        "class": "clearbold\\darksky\\Darksky"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

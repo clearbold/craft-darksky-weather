@@ -1,5 +1,5 @@
 {
-    "name": "clearbold/darksky-weather",
+    "name": "clearbold/craft-darksky-weather",
     "description": "Dark Sky Weather is a Craft plugin to display weather data from the Dark Sky API.",
     "version": "0.1",
     "type": "craft-plugin",

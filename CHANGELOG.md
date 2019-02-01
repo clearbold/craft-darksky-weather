@@ -1,4 +1,4 @@
-## 1.0.3 - 2019-02-01
+## 1.0.4 - 2019-02-01
 
 * Minor repository cleanup, README tweaks.
 

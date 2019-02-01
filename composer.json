@@ -1,7 +1,7 @@
 {
     "name": "clearbold/craft-darksky-weather",
     "description": "Dark Sky Weather is a Craft plugin to display weather data from the Dark Sky API.",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "type": "craft-plugin",
     "homepage": "https://github.com/clearbold/craft-darksky-weather",
     "license": "MIT",

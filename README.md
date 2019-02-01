@@ -8,6 +8,7 @@ A Craft plugin to display weather data from the Dark Sky API.
 ## Usage
 ```
 {# See https://darksky.net/dev/docs#request-parameters #}
+{% set weather = craft.darksky.forecast(entry.latitudeField, entry.longitudeField) %}
 {% set weather = craft.darksky.forecast(37.8267, -122.4233) %}
 {% set weather = craft.darksky.forecast(44.2741865, -72.6037392, 'en', 'us') %}}
 {% set weather = craft.darksky.forecast(44.2741865, -72.6037392) %}

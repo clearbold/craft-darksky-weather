@@ -1,0 +1,16 @@
+{% import '_includes/forms' as forms %}
+
+{{ forms.textField({
+    first:        true,
+    required:     true,
+    label:        'API Key',
+    instructions: '',
+    id:           'apiKey',
+    name:         'apiKey',
+    placeholder:  '',
+    value:        settings.apiKey
+}) }}
+
+<p><strong>Note</strong> that, per Dark Sky&rsquo;s <a href="https://darksky.net/dev/docs/terms#attribution">Terms of Service</a>:</p>
+<p>&ldquo;You are required to display the message &ldquo;Powered by Dark Sky&rdquo; that links to <span class="code">https://darksky.net/poweredby</span> somewhere prominent in your app or service.&rdquo;</p>
+<p>You are responsible for any Dark Sky fees per Dark Sky&rsquo;s Terms of Service.</p>

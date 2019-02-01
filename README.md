@@ -1,6 +1,8 @@
 # Dark Sky Weather for Craft 3
 A Craft plugin to display weather data from the Dark Sky API.
 
+You can set your Dark Sky API key in the plugin's settings via the Control Panel.
+
 <p><strong>Note</strong> that, per Dark Sky&rsquo;s <a href="https://darksky.net/dev/docs/terms#attribution">Terms of Service</a>:</p>
 <p>&ldquo;You are required to display the message &ldquo;Powered by Dark Sky&rdquo; that links to <a href="https://darksky.net/poweredby">https://darksky.net/poweredby</a> somewhere prominent in your app or service.&rdquo;</p>
 <p>You are responsible for any Dark Sky fees per Dark Sky&rsquo;s Terms of Service.</p>

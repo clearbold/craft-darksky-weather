@@ -6,3 +6,5 @@ vendor/
 
 .DS_Store
 composer.lock
+
+/src/icon.afdesign

@@ -1,3 +1,7 @@
+## 1.0.6 - 2019-02-18
+
+* Changing Variable class filename to singular.
+
 ## 1.0.5 - 2019-02-18
 
 * Minor references cleanup.

@@ -61,7 +61,7 @@ class Darksky extends Plugin
 
     protected function createSettingsModel()
     {
-        return new \clearbold\cmservice\models\Settings();
+        return new \clearbold\darksky\models\Settings();
     }
 
     protected function settingsHtml()

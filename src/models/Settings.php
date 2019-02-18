@@ -9,7 +9,7 @@
 
 namespace clearbold\darksky\models;
 
-use clearbold\cmservice\DarkskyService;
+use clearbold\darksky\DarkskyService;
 
 use Craft;
 use craft\base\Model;

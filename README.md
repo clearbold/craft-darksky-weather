@@ -232,7 +232,7 @@ You can set your Dark Sky API key in the plugin's settings via the Control Panel
         <dd>{{ day.apparentTemperatureMaxTime|datetime }}</dd>
 {% endfor %}
     </dl>
-{% if weather.alerts|length %}
+{% if weather.alerts is defined and weather.alerts|length %}
     <h2>Alerts</h2>
     <dl>
         <dt>Length</dt>
